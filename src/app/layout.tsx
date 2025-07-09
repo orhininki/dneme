@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+iliimport type { Metadata } from "next";
 import "./globals.css";
 import { Navigation } from "@/components/navigation";
 import { Footer } from "@/components/footer";
@@ -23,9 +23,9 @@ export const metadata: Metadata = {
 		title: "Resume Generator | Create Professional Resumes Online",
 		description: "Create professional resumes online with our free resume builder. Generate modern, professional resumes in minutes.",
 	},
-	authors: [{ name: "Your Name", url: "https://your-domain.com" }],
-	creator: "Your Name",
-	publisher: "Your Name",
+	authors: [{ name: "Chris Evelds", url: "https://evlilikhazirligi.com" }],
+	creator: "Chris Evelds",
+	publisher: "Maria",
 	themeColor: [
 		{ media: "(prefers-color-scheme: light)", color: "white" },
 		{ media: "(prefers-color-scheme: dark)", color: "black" },
