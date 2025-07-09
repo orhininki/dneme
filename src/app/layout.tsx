@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 	openGraph: {
 		title: "Resume Generator | Create Professional Resumes Online",
 		description: "Create professional resumes online with our free resume builder. Generate modern, professional resumes in minutes.",
-		url: "https://your-domain.com",
+		url: "https://evlilikhazirligi.com",
 		type: "website",
 		locale: "en_US",
 		siteName: "Resume Generator",
@@ -55,7 +55,7 @@ export default function RootLayout({
 				}} />
 
 				{/* Google AdSense */}
-				<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=YOUR_ADSENSE_ID" crossOrigin="anonymous"></script>
+				<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3139769263752872" crossOrigin="anonymous"></script>
 
 				{/* Additional SEO Meta Tags */}
 				<meta name="viewport" content="width=device-width, initial-scale=1.0" />
