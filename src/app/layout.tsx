@@ -1,4 +1,4 @@
-iliimport type { Metadata } from "next";
+import type { Metadata } from "next";
 import "./globals.css";
 import { Navigation } from "@/components/navigation";
 import { Footer } from "@/components/footer";
@@ -56,7 +56,7 @@ export default function RootLayout({
 
 				{/* Google AdSense */}
 				<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3139769263752872"
-     crossorigin="anonymous"></script>
+     crossOrigin="anonymous"></script>
 
 				{/* Additional SEO Meta Tags */}
 				<meta name="viewport" content="width=device-width, initial-scale=1.0" />
