@@ -23,9 +23,9 @@ export const metadata: Metadata = {
 		title: "Resume Generator | Create Professional Resumes Online",
 		description: "Create professional resumes online with our free resume builder. Generate modern, professional resumes in minutes.",
 	},
-	authors: [{ name: "Chris Evelds", url: "https://evlilikhazirligi.com" }],
-	creator: "Chris Evelds",
-	publisher: "Maria",
+	authors: [{ name: "Your Name", url: "https://evlilikhazirligi.com" }],
+	creator: "Lucy",
+	publisher: "Lucy",
 	themeColor: [
 		{ media: "(prefers-color-scheme: light)", color: "white" },
 		{ media: "(prefers-color-scheme: dark)", color: "black" },
@@ -66,7 +66,6 @@ export default function RootLayout({
 				<meta name="revisit-after" content="7 days" />
 				<meta name="distribution" content="global" />
 				<meta name="resource-type" content="document" />
-				<meta name="google-adsense-account" content="ca-pub-3139769263752872">
 			</head>
 			<body suppressHydrationWarning>
 				<Navigation />
