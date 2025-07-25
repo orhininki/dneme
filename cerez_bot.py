@@ -382,11 +382,12 @@ class CerezBot:
             return
         
         # Dosya kaydetme dialog'u
+        suggested_filename = f"cookie-scan-{self.keyword.get()}-{self.country.get()}-{int(time.time())}.json"
         filename = filedialog.asksaveasfilename(
             title="Sonuçları Kaydet",
             defaultextension=".json",
             filetypes=[("JSON files", "*.json"), ("All files", "*.*")],
-            initialname=f"cookie-scan-{self.keyword.get()}-{self.country.get()}-{int(time.time())}.json"
+            initialfile=suggested_filename
         )
         
         if filename:
